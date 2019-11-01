@@ -56,7 +56,7 @@ const fs = require("fs");
 const path = require("path");
 const lTxt = '选择生成的语言包存放的文件夹';
 const tTxt = '选择需要扫描的文件夹 (目前仅支持扫描处理该文件夹下的.vue文件)';
-import { i18n } from './Utils.js'
+import { i18n } from './autoI18n.js'
 export default {
   name: 'app',
   data () {

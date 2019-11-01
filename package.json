@@ -23,7 +23,7 @@
       "output": "dist"
     },
     "win": {  
-        "icon": "./src/12.ico"
+        "icon": "./src/icon.ico"
     }  
   },
   "config": {
@@ -42,7 +42,7 @@
       },
       "electronPackagerConfig": {
         "packageManager": "npm",
-        "icon": "./src/12.ico"
+        "icon": "./src/icon.ico"
       },
       "electronWinstallerConfig": {
         "name": "auto-i18n"
