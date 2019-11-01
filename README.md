@@ -1,6 +1,6 @@
 # auto-i18n
 
-[点我下载 auto-i18n 安装包](https://github.com/adoer/auto-i18n/blob/master/dist/auto-i18n%20Setup%201.0.0.exe)
+[点我下载 auto-i18n 安装包](https://raw.githubusercontent.com/adoer/auto-i18n/master/dist/auto-i18n%20Setup%201.0.0.exe)
 
 
 ## 使用文档
