@@ -1,0 +1,76 @@
+{
+  "name": "auto-i18n",
+  "productName": "auto-i18n",
+  "version": "1.0.0",
+  "description": "auto-i18n",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "dist": "electron-builder",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "Administrator",
+  "license": "MIT",
+  "build": {  
+    "appId": "com.duer.auto-i18n",
+    "copyright":"DUER",
+    "productName":"auto-i18n",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {  
+        "icon": "./src/12.ico"
+    }  
+  },
+  "config": {
+    "forge": {
+      "make_targets": {
+        "win32": [
+          "squirrel"
+        ],
+        "darwin": [
+          "zip"
+        ],
+        "linux": [
+          "deb",
+          "rpm"
+        ]
+      },
+      "electronPackagerConfig": {
+        "packageManager": "npm",
+        "icon": "./src/12.ico"
+      },
+      "electronWinstallerConfig": {
+        "name": "auto-i18n"
+      },
+      "electronInstallerDebian": {},
+      "electronInstallerRedhat": {},
+      "github_repository": {
+        "owner": "",
+        "name": ""
+      },
+      "windowsStoreConfig": {
+        "packageName": "",
+        "name": "auto-i18n"
+      }
+    }
+  },
+  "dependencies": {
+    "electron-compile": "^6.4.4",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-squirrel-startup": "^1.0.0",
+    "iview": "^3.5.2",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "4.0.0"
+  }
+}
