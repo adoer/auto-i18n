@@ -41,11 +41,12 @@
           <div class="imgCon" style="text-align:center;">
             <h3>使用文档</h3>
             配合 vue-i18n npm包使用，auto-i18n自动生成并维护中英文语言包。
+            <img src="./images/doc.png">
           </div>
         </div>
         <div class="other" v-show="curIndex === 2">
           <Divider>Version 1.0.0</Divider>
-          <p style="text-align:center;">Email：qing2.du@getech.cn</p>
+          <p style="text-align:center;">Email：duqingbetter@qq.com</p>
         </div>
     </div>
   </div>
